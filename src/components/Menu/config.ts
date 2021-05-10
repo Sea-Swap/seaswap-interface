@@ -4,12 +4,12 @@ import { MenuEntry } from 'uikit/index'
 const config: MenuEntry[] = [
   {
     label: 'Home',
-    icon: 'HomeIcon',
+    icon: '/images/menu/home.png',
     href: 'http://seaswap.trade/',
   },
   {
     label: 'Trade',
-    icon: 'TradeIcon',
+    icon: '/images/menu/trade.png',
     initialOpenState: true,
     items: [
       {
@@ -24,17 +24,17 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Salmon Farms',
-    icon: 'FarmIcon',
+    icon: '/images/menu/farm.png',
     href: 'http://seaswap.trade/farms',
   },
   {
     label: 'Shark Pools',
-    icon: 'PoolIcon',
+    icon: '/images/menu/pools.png',
     href: 'http://seaswap.trade/pools',
   },
   {
     label: 'Info',
-    icon: 'InfoIcon',
+    icon: '/images/menu/info.png',
     items: [
       {
         label: 'Github',
