@@ -1601,7 +1601,7 @@ var PancakeToggle = function (_a) {
         React__default['default'].createElement(PancakeInput, __assign({ id: props.id || "pancake-toggle", scale: scale, type: "checkbox", checked: checked }, props)),
         React__default['default'].createElement(PancakeLabel, { scale: scale, checked: checked, htmlFor: props.id || "pancake-toggle" },
             React__default['default'].createElement("div", { className: "pancakes" },
-                React__default['default'].createElement('img', __assign({ src: "/images/logo-icon.png" }))))));
+                React__default['default'].createElement('img', __assign({ src: "/images/logo-icon.png", style : {height: scale === "sm" ? "0.9em" : "100%"} }))))));
 };
 PancakeToggle.defaultProps = {
     scale: scales$3.MD,
